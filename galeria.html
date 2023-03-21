@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galería de Arte Ficticia</title>
+</head>
+<body>
+	<header>
+		<h1>Galería de Arte Ficticia</h1>
+	</header>
+
+	<section>
+		<video src="video-introduccion.mp4" controls></video>
+	</section>
+
+	<section>
+		<h2>Obras de Arte</h2>
+		<p>Selecciona una obra de arte para ver su descripción:</p>
+		<figure>
+			<picture>
+				<source media="(max-width: 480px)" srcset="imagen1-small.jpg">
+				<source media="(max-width: 768px)" srcset="imagen1-medium.jpg">
+				<source media="(min-width: 769px)" srcset="imagen1-large.jpg">
+				<img src="imagen1-medium.jpg" alt="Obra de arte 1">
+			</picture>
+			<figcaption>Descripción de la obra de arte 1</figcaption>
+		</figure>
+		<figure>
+			<picture>
+				<source media="(max-width: 480px)" srcset="imagen2-small.jpg">
+				<source media="(max-width: 768px)" srcset="imagen2-medium.jpg">
+				<source media="(min-width: 769px)" srcset="imagen2-large.jpg">
+				<img src="imagen2-medium.jpg" alt="Obra de arte 2">
+			</picture>
+			<figcaption>Descripción de la obra de arte 2</figcaption>
+		</figure>
+	</section>
+
+	<section>
+		<audio src="audio-descripcion.mp3" controls></audio>
+	</section>
+
+	<footer>
+		<p>Contacto: info@galeriaficticia.com</p>
+	</footer>
+</body>
+</html>
